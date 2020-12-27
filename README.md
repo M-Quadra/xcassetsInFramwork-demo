@@ -14,3 +14,8 @@ Using .xcassets in .framwork
 
 既然最新版的Xcode稍微有些不同, 那就弄个demo, 顺便修缮。
 
+# 一共就两步
+
+1. 使用`Embed & Sign`引入framework, 保证应用编译后`Assets.car`存在
+
+2. 用代码指定`Bundle`, 然后就能靠`named`直接使用图片了
